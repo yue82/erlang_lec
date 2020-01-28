@@ -1,1 +1,6 @@
 *.beam
+*.html
+*.css
+*.js
+*_cache
+*ct@*
