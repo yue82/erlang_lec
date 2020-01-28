@@ -1,0 +1,14 @@
+{application, ppool,
+ [{description, "An OTP application"},
+  {vsn, "1.0.0"},
+  {registered, [ppool]},
+  {mod, {ppool, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, [ppool, ppool_serv, ppool_sup, ppool_supersup, ppool_worker_sup]},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
