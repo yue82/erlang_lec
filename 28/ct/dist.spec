@@ -6,7 +6,8 @@
 {alias, demo, "./demo/"}.
 {alias, meeting, "./meeting/"}.
 
-{logdir, [all_nodes,master], "./logs/"}.
+{logdir, master, "./logs/"}.
+{logdir, all_nodes, "./logs/"}.
 
 {suites, [b], meeting, all}.
 {suites, [a], demo, all}.
